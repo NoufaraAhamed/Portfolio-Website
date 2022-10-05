@@ -1,0 +1,83 @@
+
+
+
+/* if view port is less than or equal to 340px*/
+@media only screen and (max-width:340px){
+    .navbar,
+    .navbar-brand,
+    .subscribe-title,
+    .subscribe-title p,h4,
+    .services-area,
+    .subscribe{
+        padding: 2%;
+        margin: 0%;
+    }
+
+    .site-title h1{
+        font-size: 41px;
+    }
+    .input-textbox input{
+        width: 15rem    !important;
+    }
+
+    .services{
+        width: 13rem;
+    }
+
+}
+
+
+/* if the viewport is equal to 340px or less than that */ 
+@media only screen and (max-width: 792px){
+    .about-title h2 > span{
+        font-size: 31px;
+        letter-spacing: 10px;
+    }
+
+   .years-area{
+        padding-left: 1%;
+        width: 49%;
+    }
+
+   .bg-panel{
+        margin-left: 30%;
+        width: 80%;   
+    }
+
+   .call-area{
+        padding-left: 3%;
+    }
+
+    .button-group button{
+        font: normal 500 18px/40px var(--roboto);
+    }
+
+    .about-title p{
+        padding: 0%;
+    }
+
+    .input-textbox input{
+        width: 20rem;
+        margin: 5%;
+    }
+}
+
+
+
+/* if the viewport is equal to 1910px or less than that */ 
+@media only screen and (max-width: 1910px){
+    .navbar{
+        padding: 1rem;
+    }
+
+    .container{
+        max-width: 90%;
+    }
+
+    .brand-area,
+    .services-title,
+    .about-area{
+        padding: 3% 4%;
+    }
+
+}
